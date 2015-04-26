@@ -1,0 +1,3 @@
+u2pcap.o u2pcap.o: u2pcap.c ../../config.h
+
+../../config.h:
