@@ -13,3 +13,8 @@ The code was designed to mimic the API of libarchive-2.x.x. The code is very fle
 "how" you want to open the unified2 logs: file descriptor, FILE stream or even raw memory buffer/length. 
 After opening a log file, you iterate over all the records- all the tricky stuff is handled internally.
 
+tl;dr
+
+Just take a look at this demo application, it explains it better.
+
+https://github.com/wtfbbqhax/libunified2-legacy/blob/master/libunified2-0.0.6/src/apps/u2csv.c
