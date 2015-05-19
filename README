@@ -1,1 +1,15 @@
-LibUnified2 is a library for reading unified2 files.
+
+Libunified2 is a library for reading unified2 files.
+
+Copyright (c) Victor Roemer 2010-2015
+
+---
+
+I developed this library from 2010 through 2012. Over the years, I had forgotten about this project;
+I thought it was gone forever, until *dun-dun-duuuun* I found it! Living on an old harddrive that I
+often treated like a coaster.
+
+The code was designed to mimic the API of libarchive-2.x.x. The code is very flexible in regard to
+"how" you want to open the unified2 logs: file descriptor, FILE stream or even raw memory buffer/length. 
+After opening a log file, you iterate over all the records- all the tricky stuff is handled internally.
+
